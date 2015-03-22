@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Diplome"
+        android:id="@+id/textView13"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Date : "
+        android:id="@+id/textView11"
+        android:layout_weight="0.05" />
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/datePicker_diplome"
+        android:layout_gravity="center_horizontal"
+        android:calendarViewShown="false"
+        android:clickable="false"
+        android:datePickerMode="spinner" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Résultat : "
+        android:id="@+id/textView12" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup_resultat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButton_admis"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="admis" />
+
+        <RadioButton
+            android:id="@+id/radioButton_refuser"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Refuser"
+            android:layout_column="9" />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valider"
+        android:id="@+id/button_valider"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accueil"
+        android:id="@+id/button_accueil2"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
