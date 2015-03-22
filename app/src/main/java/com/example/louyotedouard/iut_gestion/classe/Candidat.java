@@ -59,7 +59,7 @@ public class Candidat {
         this.situation = situation;
     }
 
-    /*public void ajouterDiplome(Diplome d){ TODO fonction mis en commentaire pour pouvoire test le code ( erreur sur .add )
+    /*public void ajouterDiplome(Diplome d){
         this.dip_obtenu.add(d);
     }*/
 
