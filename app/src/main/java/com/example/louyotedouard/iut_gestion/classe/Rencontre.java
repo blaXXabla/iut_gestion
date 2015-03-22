@@ -9,7 +9,7 @@ public class Rencontre {
 
     private Candidat candidat;
     private Date date;
-    private String formation;
+    private String formation,text1;
     private String compte_rendu;
     private String cloturer;
     private Diplome dip_clot;
@@ -72,7 +72,6 @@ public class Rencontre {
 
     @Override
     public String toString() {
-        String text1;
 
         if (dip_clot != null )
         {
@@ -85,7 +84,8 @@ public class Rencontre {
                 ", date=" + date +
                 ", formation=" + formation +
                 ", compte_rendu=" + compte_rendu  +
-                ", cloturer=" + cloturer  + text1;
+                ", cloturer=" + cloturer  + text1 +
+                " \n\r ";
 
     }
 }
