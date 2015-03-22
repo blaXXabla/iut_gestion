@@ -18,23 +18,23 @@
         </activity>
         <activity
             android:name=".CompteRenduActivity"
-            android:label="CompteRendu">
+            android:label="CompteRendu" >
         </activity>
         <activity
             android:name=".DiplomeActivity"
-            android:label="Diplome">
+            android:label="Diplome" >
         </activity>
         <activity
             android:name=".ValidationActivity"
-            android:label="Validation">
+            android:label="Validation" >
         </activity>
         <activity
             android:name=".CandidatActivity"
-            android:label="Main">
+            android:label="Main" >
         </activity>
         <activity
             android:name=".AfficherActivity"
-            android:label="Afficher">
+            android:label="Afficher" >
         </activity>
     </application>
 

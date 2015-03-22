@@ -16,7 +16,7 @@
     <Button
         android:layout_width="206dp"
         android:layout_height="wrap_content"
-        android:text="Nouvelle étudiant"
+        android:text="Nouvel étudiant"
         android:id="@+id/button_addetudiant"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.06" />
