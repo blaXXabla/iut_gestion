@@ -85,7 +85,7 @@ public class Rencontre {
                 ", formation=" + formation +
                 ", compte_rendu=" + compte_rendu  +
                 ", cloturer=" + cloturer  + text1 +
-                " \n\r ";
+                " \n\r";
 
     }
 }
