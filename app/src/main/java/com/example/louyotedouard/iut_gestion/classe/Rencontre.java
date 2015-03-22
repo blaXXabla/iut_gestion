@@ -9,7 +9,7 @@ public class Rencontre {
 
     private Candidat candidat;
     private Date date;
-    private String formation;
+    private String formation,text1;
     private String compte_rendu;
     private String cloturer;
     private Diplome dip_clot;
@@ -68,5 +68,24 @@ public class Rencontre {
 
     public void setDip_clot(Diplome dip_clot) {
         this.dip_clot = dip_clot;
+    }
+
+    @Override
+    public String toString() {
+
+        if (dip_clot != null )
+        {
+            text1 = ", dip_clot=" + dip_clot.toString() +" \n\r ";
+        }else {
+            text1 = "";
+        }
+
+        return "candidat=" + candidat.toString() +
+                ", date=" + date +
+                ", formation=" + formation +
+                ", compte_rendu=" + compte_rendu  +
+                ", cloturer=" + cloturer  + text1 +
+                " \n\r";
+
     }
 }

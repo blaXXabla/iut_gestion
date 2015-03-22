@@ -90,6 +90,8 @@ public class CandidatActivity extends ActionBarActivity {
                 info3 = email.getText().toString();
                 diplome = new Diplome((nomdiplome.getText().toString()), (anneediplome.getText().toString()), (etatdiplome.getText().toString()));
                 donnee= "nom:"+info+" ,prénom:"+info2+" email:"+info3+" situation actuel :"+situation+" diplome :"+diplome+ " formation :"+formation;
+
+                Diplome d = new Diplome(diplome.toString() , etatdiplome.toString() , anneediplome.toString() );
                 Candidat c = new Candidat(info, info2, info3, situation, diplome );
 
                 String format = "dd/MM/yy";
