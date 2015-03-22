@@ -16,18 +16,30 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Date : "
+        android:text="Nom du diplome"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nomD"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="année d&apos;obtention"
         android:id="@+id/textView11"
         android:layout_weight="0.05" />
 
-    <DatePicker
-        android:layout_width="wrap_content"
+    <EditText
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/datePicker_diplome"
-        android:layout_gravity="center_horizontal"
-        android:calendarViewShown="false"
-        android:clickable="false"
-        android:datePickerMode="spinner" />
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/anneeD"
+        android:layout_gravity="center_horizontal" />
 
     <TextView
         android:layout_width="wrap_content"

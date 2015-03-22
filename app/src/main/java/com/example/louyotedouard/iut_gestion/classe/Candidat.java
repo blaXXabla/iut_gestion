@@ -65,11 +65,11 @@ public class Candidat {
 
     @Override
     public String toString() {
-        return "Candidat{" +
-                "nom='" + nom + '\'' +
-                ", prenom='" + prenom + '\'' +
-                ", email='" + email + '\'' +
-                ", situation='" + situation + '\'' +
-                '}';
+        return
+                ",nom=" + nom  +
+                ", prenom=" + prenom  +
+                ", email=" + email  +
+                ", situation=" + situation  +
+                ", dip_obtenu=" + dip_obtenu ;
     }
 }

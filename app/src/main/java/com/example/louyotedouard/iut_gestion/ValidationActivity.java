@@ -37,6 +37,8 @@ public class ValidationActivity extends Activity {
 
             @Override
             public void onClick(View arg0) {
+
+                CandidatActivity.renc.setCloturer("poursuite d'étude");
                 Intent browserIntent =
                         new Intent(ValidationActivity.this, DiplomeActivity.class);
                 startActivity(browserIntent);
@@ -46,6 +48,8 @@ public class ValidationActivity extends Activity {
 
             @Override
             public void onClick(View arg0) {
+
+                CandidatActivity.renc.setCloturer("abandon");
                 Intent browserIntent =
                         new Intent(ValidationActivity.this, CandidatActivity.class);// retour sur le main activity
                 startActivity(browserIntent);

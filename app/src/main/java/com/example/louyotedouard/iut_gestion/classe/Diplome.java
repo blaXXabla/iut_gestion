@@ -40,4 +40,11 @@ public class Diplome {
     public void setDate(String date) {
         this.date = date;
     }
+
+    @Override
+    public String toString() {
+        return   ",nom=" + nom  +
+                ", date=" + date  +
+                ", etat=" + etat  ;
+    }
 }

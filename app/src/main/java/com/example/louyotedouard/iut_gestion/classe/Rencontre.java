@@ -69,4 +69,23 @@ public class Rencontre {
     public void setDip_clot(Diplome dip_clot) {
         this.dip_clot = dip_clot;
     }
+
+    @Override
+    public String toString() {
+        String text1;
+
+        if (dip_clot != null )
+        {
+            text1 = ", dip_clot=" + dip_clot.toString() +" \n\r ";
+        }else {
+            text1 = "";
+        }
+
+        return "candidat=" + candidat.toString() +
+                ", date=" + date +
+                ", formation=" + formation +
+                ", compte_rendu=" + compte_rendu  +
+                ", cloturer=" + cloturer  + text1;
+
+    }
 }
