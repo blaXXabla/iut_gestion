@@ -44,8 +44,6 @@ public class CompteRenduActivity extends ActionBarActivity {
 
                 CandidatActivity.renc.setCompte_rendu(info);
 
-                Toast toast = Toast.makeText(getApplicationContext(), donnee2, Toast.LENGTH_LONG);
-                toast.show();
                 // try pour stocker les données
                 CandidatActivity.renc.setCompte_rendu(donnee2);
 

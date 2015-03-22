@@ -99,9 +99,6 @@ public class CandidatActivity extends ActionBarActivity {
                 renc = new Rencontre(c,  date, formation );
 
 
-                Toast toast = Toast.makeText(getApplicationContext(), c.toString(), Toast.LENGTH_LONG);
-
-                toast.show();
             // try pour stocker les données
             try
             {
