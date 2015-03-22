@@ -3,7 +3,7 @@ package com.example.louyotedouard.iut_gestion.classe;
 import java.util.Date;
 
 /**
- * Created by Vampire on 18/03/2015.
+ * Created by Loic
  */
 public class Diplome {
 

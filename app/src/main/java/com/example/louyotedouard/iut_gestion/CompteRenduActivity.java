@@ -13,7 +13,7 @@ import java.io.BufferedWriter;
 import java.io.OutputStreamWriter;
 
 /**
- * Created by LOUYOT Edouard on 19/03/2015.
+ * Created by LOUYOT Edouard
  */
 public class CompteRenduActivity extends ActionBarActivity {
     private EditText compte_rendu;

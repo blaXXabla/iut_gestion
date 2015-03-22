@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 /**
- * Created by LOUYOT Edouard on 19/03/2015.
+ * Created by LOUYOT Edouard
  */
 public class ValidationActivity extends Activity {
     private Button btn_abandon,btn_diplome,btn_accueil;

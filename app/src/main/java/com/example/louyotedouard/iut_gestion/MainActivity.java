@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 /**
- * Created by LOUYOT Edouard on 20/03/2015.
+ * Created by LOUYOT Edouard
  */
 public class MainActivity extends ActionBarActivity {
     private Button btn_addEtudiant,btn_listEtudiant;

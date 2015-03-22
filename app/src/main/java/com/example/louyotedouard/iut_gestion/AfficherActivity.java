@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.ListView;
 
 /**
- * Created by LOUYOT Edouard on 20/03/2015.
+ * Created by LOUYOT Edouard
  */
 public class AfficherActivity extends ActionBarActivity{
     private ListView list;

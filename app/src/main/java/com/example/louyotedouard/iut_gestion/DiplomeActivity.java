@@ -17,7 +17,7 @@ import java.io.BufferedWriter;
 import java.io.OutputStreamWriter;
 
 /**
- * Created by LOUYOT Edouard on 19/03/2015.
+ * Created by LOUYOT Edouard
  */
 public class DiplomeActivity extends Activity {
     private Button btn_valider, btn_accueil;
